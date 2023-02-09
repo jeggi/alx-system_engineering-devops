@@ -1,2 +1,11 @@
 #!/bin/bash
-echo $User
+
+# Get the effective username
+
+username=$(whoami)
+
+# Print the username
+
+echo "The effective username is: $username"
+
+
